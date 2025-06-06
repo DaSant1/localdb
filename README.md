@@ -26,7 +26,6 @@ Aplicación web desarrollada con **Angular 17** y **Dexie.js** que permite crear
 - 🗑️ Eliminar productos
 - 💾 Almacenamiento local persistente con **Dexie.js (IndexedDB)**
 - ⚡ Interfaz moderna y responsive con **Angular 17**
-- 🌐 Funciona sin conexión a internet (offline-first)
 
 ---
 
