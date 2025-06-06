@@ -1,27 +1,58 @@
-# PruebaTecnica
+# 🚀 Gestión de Productos
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.10.
+Aplicación web desarrollada con **Angular 17** y **Dexie.js** que permite crear, editar, listar y eliminar productos utilizando almacenamiento local en el navegador a través de **IndexedDB**. Ideal para entornos sin conexión o pruebas locales sin necesidad de un backend.
 
-## Development server
+[![Estado](https://img.shields.io/badge/status-activo-brightgreen)]
+[![Licencia](https://img.shields.io/github/license/DaSant1/localdb)](LICENSE)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 📌 Tabla de Contenidos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [🌟 Características](#-características)
+- [📋 Requisitos](#-requisitos)
+- [⚙️ Instalación](#-instalación)
+- [▶️ Uso](#-uso)
+- [📁 Estructura del Proyecto](#-estructura-del-proyecto)
+- [🤝 Contribución](#-contribución)
+- [📄 Licencia](#-licencia)
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🌟 Características
 
-## Running unit tests
+- 📝 Crear nuevos productos con nombre, descripción y precio
+- ✏️ Editar productos existentes
+- 🗑️ Eliminar productos
+- 💾 Almacenamiento local persistente con **Dexie.js (IndexedDB)**
+- ⚡ Interfaz moderna y responsive con **Angular 17**
+- 🌐 Funciona sin conexión a internet (offline-first)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## 📋 Requisitos
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Asegúrate de tener lo siguiente instalado:
 
-## Further help
+- [Node.js](https://nodejs.org/) v16 o superior
+- [Angular CLI](https://angular.io/cli) v17 o superior
+- Navegador moderno: Chrome, Firefox, Edge
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+
+## ⚙️ Instalación
+
+Sigue los pasos a continuación para poner en marcha el proyecto en tu entorno local:
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/DaSant1/localdb.git
+
+# Acceder al directorio del proyecto
+cd localdb
+
+# Instalar dependencias
+npm install
+
+# Iniciar el servidor de desarrollo
+ng serve
